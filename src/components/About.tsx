@@ -10,7 +10,7 @@ const About = () => {
           <span className="absolute bottom-0 left-0 w-0.5 h-0.5 bg-primary-12 transition-transform duration-300 transform scale-x-0 hover:scale-x-100"></span>
         </span>
         , frontend developer with an experience of around more than{" "}
-        <b className="text-2xl text-primary-11">2.5 + years</b>I have a great
+        <b className="text-2xl text-primary-11">2.5 + years </b> I have a great
         expertise in{" "}
         <b className="text-2xl text-primary-11">
           Javascript, HTML, CSS with different frameworks and libraries of
@@ -29,7 +29,7 @@ const About = () => {
         reviews, deployment cycle, documenting features.
       </p>
       <button className="bg-primary-5 hover:bg-primary-7 text-primary-11 font-bold py-4 px-4 rounded transition duration-300 transform hover:scale-105 w-56 self-center mt-10">
-        Check about me!
+       <a href="/skills"> Check about me!</a>
       </button>
     </div>
   );

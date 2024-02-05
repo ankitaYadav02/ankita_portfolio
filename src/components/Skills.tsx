@@ -1,30 +1,47 @@
 import React from "react";
+import {
+  langSkills,
+  libFrameWorkSkills,
+  toolsSkills,
+  othersSkills,
+} from "../utils/consts";
 
 const Skills = () => {
   return (
-    <>
-      <div className="wrapper">
-        <div className="bg-blue-500 text-white font-semibold px-4 py-2 rounded-full inline-flex items-center">
-          <span className="text-sm mr-2">Chip Text</span>
-          <button className="focus:outline-none">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
-          </button>
-        </div>
+    <div className="flex flex-col justify-center items-center px-36">
+      <h4 className="mt-5 mb-3 font-semibold">Programming Language</h4>
+      <div className="flex flex-wrap gap-4 justify-center">
+        {langSkills.map((skill: string) => (
+          <div className="bg-primary-5 text-primary-9 font-semibold px-4 py-2 rounded-full inline-flex items-center min-w-40 text-center">
+            <span className="text-sm mr-2 grow">{skill}</span>
+          </div>
+        ))}
       </div>
-    </>
+      <h6 className="mt-5 font-semibold">Libraries/Frameworks</h6>
+      <div className="flex flex-wrap gap-4 justify-center">
+        {libFrameWorkSkills.map((skill: string) => (
+          <div className="bg-primary-5 text-primary-9 font-semibold px-4 py-2 rounded-full inline-flex items-center min-w-40 text-center">
+            <span className="text-sm mr-2 grow">{skill}</span>
+          </div>
+        ))}
+      </div>
+      <h6 className="mt-5 mb-3 font-semibold">Tools</h6>
+      <div className="flex flex-wrap gap-4 justify-center">
+        {toolsSkills.map((skill: string) => (
+          <div className="bg-primary-5 text-primary-9 font-semibold px-4 py-2 rounded-full inline-flex items-center min-w-40 text-center">
+            <span className="text-sm mr-2 grow">{skill}</span>
+          </div>
+        ))}
+      </div>
+      <h6 className="mt-5 mb-3 font-semibold">Other</h6>
+      <div className="flex flex-wrap gap-4 justify-center">
+        {othersSkills.map((skill: string) => (
+          <div className="bg-primary-5 text-primary-9 font-semibold px-4 py-2 rounded-full inline-flex items-center min-w-40 text-center">
+            <span className="text-sm mr-2 grow">{skill}</span>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

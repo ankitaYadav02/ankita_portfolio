@@ -1,8 +1,9 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.tsx";
-import Footer from "../components/Footer.astro";
+import Footer from "../components/Footer.tsx";
 import SkillSection from "../components/Skills.tsx";
+import "../styles/base.css";
 ---
 
 <!doctype html>
@@ -14,7 +15,6 @@ import SkillSection from "../components/Skills.tsx";
     <Header />
     <main>
       <SkillSection />
-      <div class="heart"></div>
     </main>
     <Footer />
   </body>
