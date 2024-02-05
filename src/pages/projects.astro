@@ -1,6 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
+import Header from '../components/Header.tsx';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../utils/consts';
 ---
@@ -11,10 +11,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../utils/consts';
 		<BaseHead title="Ankita Yadav" description={"portfolio"} />
 	</head>
 	<body>
-		<Header title={SITE_TITLE} />
+		<Header />
 		<main>
 		<h2>Hello Projects</h1>
 		</main>
 		<Footer />
 	</body>
 </html>
+../components/Header.tsx

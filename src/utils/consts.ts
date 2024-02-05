@@ -50,3 +50,11 @@ export const othersSkills = [
   "transpilers (Babel.js)",
   "web APIs",
 ];
+
+export const headerOptions = [
+  { title: "About", path: "/" },
+  { title: "Skills", path: "/skills" },
+  { title: "Projects", path: "/projects" },
+  { title: "Blog", path: "/blog" },
+  { title: "Experience", path: "/experience" },
+];
