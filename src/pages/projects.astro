@@ -1,19 +1,20 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.tsx';
-import Footer from '../components/Footer.tsx';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.tsx";
+import Footer from "../components/Footer.tsx";
+import ProjectSection from "../components/Projects.tsx";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title="Ankita Yadav" description={"portfolio"} />
-	</head>
-	<body>
-		<Header />
-		<main>
-		<h2>Hello Projects</h1>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title="Ankita Yadav" description={"portfolio"} />
+  </head>
+  <body>
+    <Header />
+    <main class="bg-primary-3">
+      <ProjectSection />
+    </main>
+    <Footer />
+  </body>
 </html>

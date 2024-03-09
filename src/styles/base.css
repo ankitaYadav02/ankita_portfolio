@@ -55,3 +55,6 @@ html[data-theme="light"] {
 main{
   height: calc(100vh - 124px);
 }
+body{
+  height: 100vh
+}

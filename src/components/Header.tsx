@@ -6,13 +6,12 @@ const Header = () => {
       <nav className="component-wrapper sticky top-0 bg-primary-3 shadow-md">
         <div className="flex justify-between py-4">
           <div className="flex justify-around gap-3 items-center">
+            <a href="/">About</a>
             <a href="/skills">Skills</a>
-            <a href="/experience">Experience</a>
             <a href="/projects">Projects</a>
-            <a href="/blog">Blogs</a>
           </div>
           <div className="flex justify-around gap-4 items-center">
-            <a href="" target="_blank">
+            <a href="https://ankita-yadav.hashnode.dev/" target="_blank">
               <span className="sr-only">Follow Astro on Mastodon</span>
               <svg
                 width="32"
@@ -30,7 +29,10 @@ const Header = () => {
                 </g>
               </svg>
             </a>
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/ankita-yadav-8343831b3/"
+              target="_blank"
+            >
               <span className="sr-only">Follow Astro on Mastodon</span>
               <svg
                 fill="currentColor"
@@ -44,7 +46,7 @@ const Header = () => {
                 <path d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z" />
               </svg>
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/ankitaYadav02" target="_blank">
               <span className="sr-only">Go to Astro's GitHub repo</span>
               <svg
                 viewBox="0 0 16 16"
@@ -58,7 +60,7 @@ const Header = () => {
                 ></path>
               </svg>
             </a>
-            <a href="" target="_blank">
+            <a href="https://twitter.com/rao_ankii" target="_blank">
               <span className="sr-only">Follow Astro on Twitter</span>
               <svg
                 viewBox="0 0 16 16"
