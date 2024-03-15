@@ -12,7 +12,7 @@ const About = () => {
       </p>
       <p className="text-5xl font-light mt-3">I am a Software Engineer</p>
       <button className="bg-primary-5 hover:bg-primary-7 text-primary-11 font-bold py-4 px-4 rounded transition duration-300 transform hover:scale-105 w-56 self-center mt-10">
-        <a href="/skills"> Check about me!</a>
+        <a href="/ankita_portfolio/skills"> Check about me!</a>
       </button>
     </div>
   );

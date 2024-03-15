@@ -51,7 +51,7 @@ export const skillsImages = [
 ];
 
 export const headerOptions = [
-  { title: "About", path: "/" },
-  { title: "Skills", path: "/skills" },
-  { title: "Projects", path: "/projects" },
+  { title: "About", path: "/ankita_portfolio" },
+  { title: "Skills", path: "/ankita_portfolio/skills" },
+  { title: "Projects", path: "/ankita_portfolio/projects" },
 ];
