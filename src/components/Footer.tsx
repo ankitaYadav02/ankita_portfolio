@@ -5,7 +5,7 @@ const Footer = () => {
   const today = new Date();
   return (
     <div className="bg-primary-3 text-center py-5 flex flex-col gap-2">
-      <div class="flex justify-center gap-4 items-center">
+      <div className="flex justify-center gap-4 items-center">
         <a href="https://ankita-yadav.hashnode.dev/" target="_blank">
           <svg
             width="32"
@@ -13,7 +13,6 @@ const Footer = () => {
             viewBox="0 0 256 256"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
           >
             <g fill-rule="evenodd">
               <path
