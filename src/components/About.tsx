@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="px-60 text-center h-screen bg-primary-3 flex flex-col justify-center leading-8">
+    <div className="text-center h-screen bg-primary-3 flex flex-col justify-center leading-8 about">
       <p className="text-5xl font-light">
         Hi 👋, I&apos;m{" "}
         <span className="text-6xl text-primary-11 transition-opacity duration-300 hover:opacity-50 relative">
@@ -11,8 +11,9 @@ const About = () => {
         </span>
       </p>
       <p className="text-5xl font-light mt-3">I am a Software Engineer</p>
-      <button className="bg-primary-5 hover:bg-primary-7 text-primary-11 font-bold py-4 px-4 rounded transition duration-300 transform hover:scale-105 w-56 self-center mt-10">
-        <a href="/ankita_portfolio/skills"> Check about me!</a>
+      <button className="bg-primary-5 hover:bg-primary-7 text-primary-11 font-bold py-4 px-4 rounded transition duration-300 transform hover:scale-105 w-56 self-center mt-10 check-btn">
+        {/* <a href="/ankita_portfolio/skills"> Check about me!</a> */}
+        Check about me!
       </button>
     </div>
   );

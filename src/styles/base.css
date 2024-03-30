@@ -52,9 +52,31 @@ html[data-theme="light"] {
   padding: 0 32px;
 }
 
-main{
+main {
   height: calc(100vh - 124px);
 }
-body{
-  height: 100vh
+body {
+  height: 100vh;
+}
+
+.custom-height {
+  height: calc(100vh - 64px);
+}
+
+.box {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: emerge 5s ease forwards;
+  animation-delay: infinite;
+}
+
+@keyframes emerge {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

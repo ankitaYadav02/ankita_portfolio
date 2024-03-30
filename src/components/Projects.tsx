@@ -2,7 +2,9 @@ import React from "react";
 
 const Projects = () => {
   return (
-      <div className="relative flex justify-center h-full gap-4 flex-wrap py-8">
+    <div className="flex flex-col justify-center items-center mt-6 mb-6 projects">
+      <p className="font-bold text-4xl underline underline-offset-8 mb-6 text-primary-11">Projects</p>
+      <div className="relative flex justify-center h-full gap-4 flex-wrap py-8 projects">
         {[1, 2, 3, 4].map((val) => (
           <div className="bg-primary-8 h-1/2 w-1/3 rounded-lg cursor-pointer">
             <div className="bg-primary-6 h-1/2 w-full"></div>
@@ -20,6 +22,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+    </div>
   );
 };
 

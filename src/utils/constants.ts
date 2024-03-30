@@ -32,10 +32,10 @@ export const skillsImages = [
     title: "",
     link: "https://avatars.githubusercontent.com/u/103283236?s=200&v=4",
   },
-  {
-    title: "",
-    link: "https://static-00.iconduck.com/assets.00/material-ui-icon-512x406-fhnu85xg.png",
-  },
+  // {
+  //   title: "",
+  //   link: "https://static-00.iconduck.com/assets.00/material-ui-icon-512x406-fhnu85xg.png",
+  // },
   {
     title: "",
     link: "https://avatars.githubusercontent.com/u/18133?s=200&v=4",

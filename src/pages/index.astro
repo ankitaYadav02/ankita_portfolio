@@ -2,6 +2,9 @@
 import BaseHead from "../components/BaseHead.astro";
 import About from "../components/About";
 import "../styles/base.css";
+import SkillSection from "../components/Skills.tsx";
+import ProjectSection from "../components/Projects.tsx";
+import Footer from "../components/Footer";
 ---
 
 <!doctype html>
@@ -10,8 +13,51 @@ import "../styles/base.css";
     <BaseHead title="Ankita Yadav" description={"portfolio"} />
   </head>
   <body>
+    <script>
+      var onAppear: any[] = [];
+
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          onAppear = [].map.call(
+            document.querySelectorAll(".projects, .skills"),
+            function (item) {
+              return item;
+            }
+          );
+        },
+        false
+      );
+
+      window.addEventListener(
+        "scroll",
+        function () {
+          onAppear.forEach(function (elem) {
+            console.log(38, elem);
+            var vwTop = window.pageYOffset;
+            var vwBottom = window.pageYOffset + window.innerHeight;
+            var elemTop = elem.offsetTop;
+            var elemHeight = elem.offsetHeight;
+            if (vwBottom > elemTop && vwTop - elemHeight < elemTop) {
+              elem.classList.add("box");
+            } else {
+              elem.classList.remove("box");
+            }
+          });
+        },
+        false
+      );
+      document.querySelector(".check-btn")?.addEventListener("click", () => {
+        console.log("btn clicked",  document.querySelector(".skills"));
+        document.querySelector(".skills")?.scrollIntoView();
+      });
+    </script>
     <main class="bg-gradient-to-r from-primary-1 to-primary-11">
       <About />
+      <!-- <Header /> -->
+      <SkillSection />
+      <ProjectSection />
+      <Footer />
     </main>
   </body>
 </html>
