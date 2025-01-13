@@ -12,7 +12,7 @@ const Skills = () => {
       <div className="w-1/2 flex flex-col justify-center break-words">
       <p className="font-bold text-4xl underline underline-offset-8 mb-8 text-primary-11">About me</p>
         <p className="font-medium	 text-2xl">
-          Experienced frontend developer with 2.5+ years in JavaScript, HTML,
+          Experienced frontend developer with 4+ years in JavaScript, HTML,
           CSS. Specializes in performance optimization, accessibility.
           Proficient in agile methodologies, JIRA management, code reviews.
           Passionate about technology, outdoor activities, travel, food, and
